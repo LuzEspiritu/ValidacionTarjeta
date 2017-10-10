@@ -38,4 +38,4 @@ for(i=0;i<10;i++)//haciendo iteración del Array--->divididoArray
 do{
   var numeroTarjeta= prompt("Escribe tu número de tarjeta");
   validar(numeroTarjeta);
-}while(message.length==0)
+}while(numeroTarjeta.length==0)
